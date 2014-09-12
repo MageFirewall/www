@@ -29,7 +29,7 @@ body a{
 	position: absolute;
 	top:180px;
 	font-size: 5em;
-	left: 25%;
+	left: 28%;
 	font-weight: 700;
 	color: #fff;
 	text-shadow: rgba(243, 208, 39, 0.33) 1px 1px,
@@ -273,16 +273,11 @@ body a{
     rgba(243, 208, 39, 0.33)329px 329px,
     rgba(243, 208, 39, 0.33)330px 330px,
 }
-.head-para p{
-	position: absolute;
-font-size: 1.6em;
-color: #fff;
-font-weight: 400;
-font-family: 'Droid Serif', serif;
-top: 360px;
-width: 70%;
-left:17%;
-line-height: 1.2em;
+.magelogo
+{
+	left: 110px;
+    position: absolute;
+    top: 175px;
 }
 .header{
 	padding: 1% 0;
@@ -317,7 +312,7 @@ line-height: 1.2em;
 	transition: all 0.3s ease-in-out;
 }
 .nav li {
-	margin: 10px 30px;
+	margin: 10px 19px;
 }
 .nav > li > a {
 	font-size: 20px;
@@ -331,84 +326,6 @@ line-height: 1.2em;
 .nav_container {
 width: 48%;
 margin: 0 auto;
-}
-/*start search*/
-.sb-search {
-	position: absolute;
-	top:0;
-	right:0px;
-	width: 0%;
-	min-width: 40px;
-	height: 40px;
-	float: right;
-	overflow: hidden;
-	-webkit-transition: width 0.3s;
-	-moz-transition: width 0.3s;
-	transition: width 0.3s;
-	-webkit-backface-visibility: hidden;
-}
-.sb-search-input {
-	position: absolute;
-	top: 0;
-	left: 0px;
-	border: none;
-	outline: none;
-	background:#21A957;
-	width: 100%;
-	height:40px;
-	margin: 0;
-	z-index: 10;
-	padding: 5px 20px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 13px;
-	color: #ffffff;
-}
-.sb-search-input::-webkit-input-placeholder {
-	color: #ffffff;
-}
-.sb-search-input:-moz-placeholder {
-	color: #ffffff;
-}
-.sb-search-input::-moz-placeholder {
-	color: #efb480;
-}
-.sb-search-input:-ms-input-placeholder {
-	color: #ffffff;
-}
-.sb-icon-search,.sb-search-submit  {
-	width:40px;
-	height:40px;
-	display: block;
-	position: absolute;
-	right: 0;
-	top: 0;
-	padding: 0;
-	margin: 0;
-	line-height: 45px;
-	text-align: center;
-	cursor: pointer;
-}
-.sb-search-submit {
-	background: #21A957 url('../images/search-h.png') no-repeat 0px 1px;
-	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; /* IE 8 */
-    filter: alpha(opacity=0); /* IE 5-7 */
-  	color: transparent;
-	border: none;
-	outline: none;
-	z-index: -1;
-	-webkit-appearance: none;
-}
-.sb-icon-search {
-	color: #FFF;
-	background:#F4F4F4 url('../images/search.png') no-repeat 0px 3px;
-	z-index: 90;
-}
-/* Open state */
-.sb-search.sb-search-open,.no-js .sb-search {
-	width:40%;
-}
-.sb-search.sb-search-open .sb-search-submit,.no-js .sb-search .sb-search-submit {
-	z-index: 90;
 }
 /*--about--*/
 .services{
@@ -542,130 +459,6 @@ text-align: center;
 width: 67%;
 padding: 0.5em 0 1em;
 }
-/* Styles the thumbnail */
-/*Eliminates padding, centers the thumbnail */
-
-
-a.lightbox img {
-width:100%;
-box-shadow: 0px 0px 8px rgba(0,0,0,.3);
--webkit-transition: .5s ease-in-out;
--moz-transition: .5s ease-in-out;
--o-transition: .5s ease-in-out;
-transition: .5s ease-in-out;
-}
-
-/* Styles the lightbox, removes it from sight and adds the fade-in transition */
-
-.lightbox-target {
-position: fixed;
-top: -100%;
-width: 100%;
-background: rgba(0,0,0,.7);
-width: 100%;
-opacity: 0;
--webkit-transition: opacity .5s ease-in-out;
--moz-transition: opacity .5s ease-in-out;
--o-transition: opacity .5s ease-in-out;
-transition: opacity .5s ease-in-out;
-overflow: hidden;
-z-index: 999;
-}
-
-/* Styles the lightbox image, centers it vertically and horizontally, adds the zoom-in transition and makes it responsive using a combination of margin and absolute positioning */
-
-.lightbox-target img {
-margin: auto;
-position: absolute;
-top: 0;
-left:0;
-right:0;
-bottom: 0;
-max-height: 0%;
-max-width: 0%;
-border: 3px solid white;
-box-shadow: 0px 0px 8px rgba(0,0,0,.3);
-box-sizing: border-box;
--webkit-transition: .5s ease-in-out;
--moz-transition: .5s ease-in-out;
--o-transition: .5s ease-in-out;
-transition: .5s ease-in-out;
-}
-
-/* Styles the close link, adds the slide down transition */
-
-a.lightbox-close {
-display: block;
-width:50px;
-height:50px;
-box-sizing: border-box;
-background: white;
-color: black;
-text-decoration: none;
-position: absolute;
-top: -80px;
-right: 0;
--webkit-transition: .5s ease-in-out;
--moz-transition: .5s ease-in-out;
--o-transition: .5s ease-in-out;
-transition: .5s ease-in-out;
-}
-
-/* Provides part of the "X" to eliminate an image from the close link */
-
-a.lightbox-close:before {
-content: "";
-display: block;
-height: 30px;
-width: 1px;
-background: black;
-position: absolute;
-left: 26px;
-top:10px;
--webkit-transform:rotate(45deg);
--moz-transform:rotate(45deg);
--o-transform:rotate(45deg);
-transform:rotate(45deg);
-}
-
-/* Provides part of the "X" to eliminate an image from the close link */
-
-a.lightbox-close:after {
-content: "";
-display: block;
-height: 30px;
-width: 1px;
-background: black;
-position: absolute;
-left: 26px;
-top:10px;
--webkit-transform:rotate(-45deg);
--moz-transform:rotate(-45deg);
--o-transform:rotate(-45deg);
-transform:rotate(-45deg);
-}
-
-/* Uses the :target pseudo-class to perform the animations upon clicking the .lightbox-target anchor */
-
-.lightbox-target:target {
-opacity: 1;
-top: 0;
-bottom: 0;
-}
-
-.lightbox-target:target img {
-max-height: 100%;
-max-width: 100%;
-}
-
-.lightbox-target:target a.lightbox-close {
-top: 0px;
-}
-a.lightbox img:hover { 
- background:#21A957;
-}
-/*-----------------------------------------------------------------------------------*/
-
 #filters {
 	margin: 2em 0 3em;
 padding: 0;
@@ -846,8 +639,8 @@ font-weight: 800;
 .t-social li a.twitter span{
 	background-position: -62px 1px;
 }
-.t-social li a.pin span{
-	background-position: -123px -3px;
+.t-social li a.github span{
+	background-position: -120px -2px;
 }
 .head-one{
 	text-align: center;
@@ -1227,9 +1020,6 @@ i.icon3:hover {
 }
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color:#F5D74D;
-}
-.sb-search.sb-search-open, .no-js .sb-search {
-	width: 58%;
 }
 }
 @media(max-width:480px) {

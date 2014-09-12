@@ -1,49 +1,78 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE HTML>
 <html>
 <head>
 <title>Magento Firewall</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- Custom Theme files -->
-<link href="css/style.css" rel='stylesheet' type='text/css' />
-<link rel="stylesheet" href="css/hover.css" />
-<script src="js/jquery.min.js"></script>
-<!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Image overlay hover effects with CSS3 transitions. When we hover over an image, a neat transition will occur." />
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-</script>
-<script type="text/javascript" src="js/bootstrap.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!----webfonts--->
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href="css/jquery.fancybox.css" rel='stylesheet' type='text/css' />
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
-<!---//webfonts--->
-<!---- start-smoth-scrolling---->
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/move-top.js"></script>
 <script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
- <!---- start-smoth-scrolling---->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+	$(".scroll").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	$().UItoTop({ easingType: 'easeOutQuart' });
+	$('#contact-us-submit').click(function(){
+	var value=$('#contact-us').serialize();
+		$.ajax({
+		url:'contact-us.php',
+		type:'GET',
+		data:value,
+		success:function(msg)
+		{
+			$('#contact-us-success-msg').html(msg);
+		}
+		});
+	return false;
+	});
+	$(".fancybox").fancybox();
+	});
+	$(function () {
+		var filterList = {
+			init: function () {
+				$('#portfoliolist').mixitup({
+					targetSelector: '.portfolio',
+					filterSelector: '.filter',
+					effects: ['fade'],
+					easing: 'snap',
+					onMixEnd: filterList.hoverEffect()
+				});				
+			},
+			hoverEffect: function () {
+				$('#portfoliolist .portfolio').hover(
+					function () {
+						$(this).find('.label1').stop().animate({bottom: 0}, 200, 'easeOutQuad');
+						$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
+					},
+					function () {
+						$(this).find('.label1').stop().animate({bottom: -40}, 200, 'easeInQuad');
+						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
+					}		
+				);
+			}
+		};
+	filterList.init();
+	});	
+</script>
 </head>
 <body>
 <!----- start-header---->
 <div class="header_bg" id="home">
 	<div class="container">
 		<div class="head-para">
+			<img src="images/magefirewall.png" class="magelogo">
 			<h1>Magento Firewall</h1>
-			<p>For Securing Your E-COMMERCE System</p>
 		</div>
 	</div>
 </div>
@@ -68,18 +97,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			        <li><a href="#services" class="scroll">Features</a></li>
 			        <li><a href="#portfolio" class="scroll">Screenshots</a></li>
 			        <li><a href="#blog" class="scroll">Team</a></li>
-			         <li><a href="#blog" class="scroll">Hire us</a></li>
+			         <li><a href="#hireus" class="scroll">Hire us</a></li>
 			        <li><a href="#contact" class="scroll">Contact</a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			</nav>
-			<div id="sb-search" class="sb-search">
-				<form>
-					<input class="sb-search-input" placeholder="Enter your search term..." type="text" value="" name="search" id="search">
-					<input class="sb-search-submit" type="submit" value="">
-					<span class="sb-icon-search"></span>
-				</form>
-			</div>
 			<script src="js/classie.js"></script>
 			<script src="js/uisearch.js"></script>
 			<script>
@@ -120,110 +142,59 @@ License URL: http://creativecommons.org/licenses/by/3.0/
        		</div>
        	</div>
 	 <!---//End-services----->
-	  <!--- portfolio ---->
-			<div id="portfolio" class="portfolio">
-				<div class="container">
-					<div class="head-section text-center">
-						<h3>Screenshots </h3>
-						   <span1> </span1>
-						  <p>Here is a peek into our plugin backend.</p>
-					</div>
-				</div>
-				<!--- Portfolio --->
-			<div id="port" class="portfolio-box">
-				<div class="container">
-					<ul id="filters" class="clearfix">
-						<li><span class="filter active" data-filter="app card icon logo web">All</span></li>
-						<li><span class="filter" data-filter="app">Dashboard</span></li>
-						<li><span class="filter" data-filter="card">Blacklist</span></li>
-						<li><span class="filter" data-filter="icon">File Guard</span></li>
-						<li><span class="filter" data-filter="logo">Menu</span></li>
-						<li><span class="filter" data-filter="web">Diagnostics</span></li>
-					</ul>
-				 </div>
-					<div id="portfoliolist">
-					<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block;width:25%; opacity: 1;">
-					    <div class="portfolio-wrapper">	
-							<a class="lightbox" href="#goofy">
-								   <img src="images/screenshot1.png"/>
-								</a> 
-								<div class="lightbox-target" id="goofy">
-								<img src="images/screenshot1.png"/>
-								   <a class="lightbox-close" href="#"></a>
-								</div>
-						 </div>
-		            </div>				
-					<div class="portfolio web mix_all" data-cat="web" style="display: inline-block;width:25%; opacity: 1;">
-						<div class="portfolio-wrapper">		
-							<a class="lightbox" href="#goofy">
-								   <img src="images/screenshot2.png"/>
-								</a> 
-					    </div>
-					</div>		
-					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block;width:25%; opacity: 1;">
-						<div class="portfolio-wrapper">		
-							<a class="lightbox" href="#goofy">
-								   <img src="images/screenshot3.png"/>
-								</a> 
-					    </div>
-					</div>				
-					<div class="portfolio logo mix_all" data-cat="logo" style="display: inline-block;width:25%; opacity: 1;">
-						<div class="portfolio-wrapper">		
-							<a class="lightbox" href="#goofy">
-							   <img src="images/screenshot1.png"/>
-							</a> 
-						</div>
-					</div>		
-					<div class="portfolio card mix_all" data-cat="card" style="display: inline-block;width:25%; opacity: 1;">
-						<div class="portfolio-wrapper">		
-							<a class="lightbox" href="#goofy">
-								   <img src="images/screenshot3.png"/>
-								</a> 
-					    </div>
-					</div>		
-					<div class="clearfix"></div>	
-				</div>
-		    </div>
-            <!---- start-portfolio-script----->
-					<script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
-					<script type="text/javascript">
-						$(function () {
-							var filterList = {
-								init: function () {
-								
-									// MixItUp plugin
-									// http://mixitup.io
-									$('#portfoliolist').mixitup({
-										targetSelector: '.portfolio',
-										filterSelector: '.filter',
-										effects: ['fade'],
-										easing: 'snap',
-										// call the hover effect
-										onMixEnd: filterList.hoverEffect()
-									});				
-								
-								},
-								hoverEffect: function () {
-									// Simple parallax effect
-									$('#portfoliolist .portfolio').hover(
-										function () {
-											$(this).find('.label1').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-											$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-										},
-										function () {
-											$(this).find('.label1').stop().animate({bottom: -40}, 200, 'easeInQuad');
-											$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-										}		
-									);				
-								
-								}
-					
-							};
-							// Run the show!
-							filterList.init();
-						});	
-					</script>
+	 
+	 
+	<div id="portfolio" class="portfolio">
+		<div class="container">
+			<div class="head-section text-center">
+				<h3>Checkout my latest work </h3>
+				   <span1> </span1>
+				  <p>Firewall Protection Example</p>
 			</div>
+		</div>
+		<div id="port" class="portfolio-box">
+			<div class="container">
+				<ul id="filters" class="clearfix">
+					<li><span class="filter active" data-filter="all">All</span></li>
+					<li><span class="filter" data-filter="dashboard">Dashboard</span></li>
+					<li><span class="filter" data-filter="edited_files">Console Mode</span></li>
+					<li><span class="filter" data-filter="logs">Edited Files</span></li>
+					<li><span class="filter" data-filter="console_mode">Logs</span></li>
+				</ul>
+			</div>
+			<div id="portfoliolist">
+				<div class="portfolio dashboard" style="display: inline-block;width:25%; opacity: 1;">
+					<div class="portfolio-wrapper">	
+						<a class="fancybox" rel="gallery" href="images/screenshot1.png"><img src="images/screenshot1.png" alt="" /></a>
+					 </div>
+				</div>					
+				<div class="portfolio edited_files" style="display: inline-block;width:25%; opacity: 1;">
+					<div class="portfolio-wrapper">		
+						<a class="fancybox" rel="gallery" href="images/screenshot2.png"><img src="images/screenshot2.png" alt="" /></a>
+					</div>
+				</div>				
+				<div class="portfolio logs" data-cat="logo" style="display: inline-block;width:25%; opacity: 1;">
+					<div class="portfolio-wrapper">		
+						<a class="fancybox" rel="gallery" href="images/screenshot3.png"><img src="images/screenshot3.png" alt="" /></a>
+					</div>
+				</div>		
+				<div class="portfolio console_mode" style="display: inline-block;width:25%; opacity: 1;">
+					<div class="portfolio-wrapper">		
+						<a class="fancybox" rel="gallery" href="images/screenshot4.png"><img src="images/screenshot4.png" alt="" /></a>
+					</div>
+				</div>	
+				<div class="portfolio edited_files" data-cat="card" style="display: inline-block;width:25%; opacity: 1;">
+					<div class="portfolio-wrapper">		
+						<a class="fancybox" rel="some-gallery-name" href="images/screenshot2.png"><img src="images/screenshot2.png" alt="" /></a>
+					</div>
+				</div>		
+				<div class="clearfix"></div>	
+			</div>
+		</div>
+	</div>
+	
+	
+	
 					<!---team---><div id="blog" class="blog">
 						<div class="container">
 							<div class="head-one text-center team-head">
@@ -242,6 +213,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<ul class="t-social unstyled-list list-inline">
 											<li><a class="facebook" href="#"><span> </span></a></li>
 											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="github" href="#"><span> </span></a></li>
 											<div class="clearfix"> </div>
 										</ul>
 									</div>
@@ -255,6 +227,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<ul class="t-social unstyled-list list-inline">
 											<li><a class="facebook" href="#"><span> </span></a></li>
 											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="github" href="#"><span> </span></a></li>
 											<div class="clearfix"> </div>
 										</ul>
 									</div>
@@ -268,6 +241,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<ul class="t-social unstyled-list list-inline">
 											<li><a class="facebook" href="#"><span> </span></a></li>
 											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="github" href="#"><span> </span></a></li>
 											<div class="clearfix"> </div>
 										</ul>
 									</div>
@@ -278,11 +252,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						</div>
 					</div>
 				<!----//End-team-members----> 
+				
+	<div id="hireus" class="hireus">
+		<div class="container">
+			<div class="head-one text-center">
+				  <h3>Hire Us</h3>
+				   <span> </span>
+				  <p>MageFirewall has many security features including Blocking common web attacks, Blacklisting offenders , File Modification detector , Scan webserver , Scan magento for unpatched security issues , Sanitizing the GET/POST/Cookies/Upload data .
+				  <br /> <br />MageFirewall Uses NinjaFirewall's rules for additional security.
+				  </p>
+			 </div>
+		</div>
+	</div>
+				
+				
 				<!---Contact--->
 					<div id="contact" class="contact">
 						<div class="container">
 							<div class="head-contact text-center">
 								<h2>Contact Us</h2>
+								<span1></span1>
 							</div>
 							<div class="contact-grids">
 								<div class="col-md-2"></div>
@@ -313,36 +302,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					</div>
 					<div class="clearfix"> </div>
 				</div>
-				<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-										$('#contact-us-submit').click(function(){
-										var value=$('#contact-us').serialize();
-											$.ajax({
-											url:'contact-us.php',
-											type:'GET',
-											data:value,
-											success:function(msg)
-											{
-												$('#contact-us-success-msg').html(msg);
-											}
-											});
-										return false;
-										});
-										
-									});
-									
-					</script>
-					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		
+		<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 </body>
 </html>
