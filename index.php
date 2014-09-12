@@ -72,7 +72,7 @@
 	<div class="container">
 		<div class="head-para">
 			<img src="images/magefirewall.png" class="magelogo">
-			<h1>Magento Firewall</h1>
+			<h1>Mage Firewall</h1>
 		</div>
 	</div>
 </div>
