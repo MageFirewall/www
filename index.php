@@ -304,7 +304,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="container">
 						<div class="footer-icons">
 							<ul class="t-social unstyled-list list-inline">
-											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="twitter" href="https://twitter.com/MageFirewall"><span> </span></a></li>
 											<li><a class="github" href="#"><span> </span></a></li>
 											<div class="clearfix"> </div>
 							</ul>
