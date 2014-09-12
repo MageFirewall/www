@@ -65,9 +65,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			      <ul class="nav navbar-nav">
 			        <li><a href="#home" class="scroll">Home</a></li>
-			        <li><a href="#services" class="scroll">Services</a></li>
-			        <li><a href="#portfolio" class="scroll">Portfolio</a></li>
-			        <li><a href="#blog" class="scroll">Blog</a></li>
+			        <li><a href="#services" class="scroll">Features</a></li>
+			        <li><a href="#portfolio" class="scroll">Screenshots</a></li>
+			        <li><a href="#blog" class="scroll">Team</a></li>
+			         <li><a href="#blog" class="scroll">Hire us</a></li>
 			        <li><a href="#contact" class="scroll">Contact</a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
@@ -93,25 +94,27 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	   <div id="services" class="services">
        		<div class="container">
        		   <div class="gallery-head text-center">
-				  <h3>This is an Awesome Bootstrap Html5 Template</h3>
+				  <h3>Features</h3>
 				   <span> </span>
-				  <p>Proin iaculis purus consequat sem cure  digni sim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
+				  <p>MageFirewall has many security features including Blocking common web attacks, Blacklisting offenders , File Modification detector , Scan webserver , Scan magento for unpatched security issues , Sanitizing the GET/POST/Cookies/Upload data .
+				  <br /> <br />MageFirewall Uses NinjaFirewall's rules for additional security.
+				  </p>
 			    </div>
        			<div class="row text-center">
        				<div class="col-md-4 about_grid">
        					<i class="icon1"> </i>
-       					<h3><a href="#">Flat Design</a></h3>
-       					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+       					<h3><a href="#">Targetted</a></h3>
+       					<p>We take enough care to only block the offenders and not your shoppers or backend admins.</p>
        				</div>
        				<div class="col-md-4 about_grid">
        					<i class="icon2"> </i>
-       					<h3><a href="#">Great Ideas</a></h3>
-       					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+       					<h3><a href="#">Great Care</a></h3>
+       					<p>MageFirewall takes care of your site's security and will email you when your site is under attack or if your mage system is compromised</p>
        				</div>
        				<div class="col-md-4 about_grid">
        					<i class="icon3"> </i>
-       					<h3><a href="#">Browser Compability</a></h3>
-       					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
+       					<h3><a href="#">Optimized</a></h3>
+       					<p>MageFirewall will be speedy and will not add to your site's loading time.</p>
        				</div>
        			</div>
        		</div>
@@ -121,9 +124,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<div id="portfolio" class="portfolio">
 				<div class="container">
 					<div class="head-section text-center">
-						<h3>Checkout my latest work </h3>
+						<h3>Screenshots </h3>
 						   <span1> </span1>
-						  <p>Proin iaculis purus consequat sem cure  digni sim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
+						  <p>Here is a peek into our plugin backend.</p>
 					</div>
 				</div>
 				<!--- Portfolio --->
@@ -131,11 +134,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				<div class="container">
 					<ul id="filters" class="clearfix">
 						<li><span class="filter active" data-filter="app card icon logo web">All</span></li>
-						<li><span class="filter" data-filter="app">Web</span></li>
-						<li><span class="filter" data-filter="card">Mobile</span></li>
-						<li><span class="filter" data-filter="icon">Photography</span></li>
-						<li><span class="filter" data-filter="logo">Design</span></li>
-						<li><span class="filter" data-filter="web">Type</span></li>
+						<li><span class="filter" data-filter="app">Dashboard</span></li>
+						<li><span class="filter" data-filter="card">Blacklist</span></li>
+						<li><span class="filter" data-filter="icon">File Guard</span></li>
+						<li><span class="filter" data-filter="logo">Menu</span></li>
+						<li><span class="filter" data-filter="web">Diagnostics</span></li>
 					</ul>
 				 </div>
 					<div id="portfoliolist">
@@ -226,7 +229,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							<div class="head-one text-center team-head">
 								<h3>Meet The Team</h3>
 							  	<span> </span>
-						  		<p>Proin iaculis purus consequat sem cure  digni sim donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt proin iaculis.</p>
+						  		<p>We have worked with 100s of Magento websites and we know what exactly a Magento system needs to be secure & speedy at same time.</p>
 							</div>	
 				<!----team-members---->
 							<div class="team-members">
@@ -239,7 +242,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<ul class="t-social unstyled-list list-inline">
 											<li><a class="facebook" href="#"><span> </span></a></li>
 											<li><a class="twitter" href="#"><span> </span></a></li>
-											<li><a class="pin" href="#"><span> </span></a></li>
 											<div class="clearfix"> </div>
 										</ul>
 									</div>
@@ -253,7 +255,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<ul class="t-social unstyled-list list-inline">
 											<li><a class="facebook" href="#"><span> </span></a></li>
 											<li><a class="twitter" href="#"><span> </span></a></li>
-											<li><a class="pin" href="#"><span> </span></a></li>
 											<div class="clearfix"> </div>
 										</ul>
 									</div>
@@ -267,7 +268,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 										<ul class="t-social unstyled-list list-inline">
 											<li><a class="facebook" href="#"><span> </span></a></li>
 											<li><a class="twitter" href="#"><span> </span></a></li>
-											<li><a class="pin" href="#"><span> </span></a></li>
 											<div class="clearfix"> </div>
 										</ul>
 									</div>
@@ -305,15 +305,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						<div class="footer-icons">
 							<ul class="t-social unstyled-list list-inline">
 											<li><a class="twitter" href="#"><span> </span></a></li>
-											<li><a class="fb" href="#"><span> </span></a></li>
-											<li><a class="s" href="#"><span> </span></a></li>
-											<li><a class="bbl" href="#"><span> </span></a></li>
+											<li><a class="github" href="#"><span> </span></a></li>
 											<div class="clearfix"> </div>
 							</ul>
 						</div>
-						<div class="copy-right">
-							<p>&copy; 2014 Template by &nbsp;<a href="http://w3layouts.com">W3Layouts</a></p>
-						</div>								
+												
 					</div>
 					<div class="clearfix"> </div>
 				</div>
