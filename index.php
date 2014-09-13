@@ -273,7 +273,7 @@
 							<div class="contact-grids">
 								<div class="col-md-2"></div>
 								<div class="col-md-8 contact-form">
-								<p>Want to contact us now? Just drop us a line below.</p>	
+								<p>Want to contact us now? Just drop us a line below. Or tweet us at @MageFirewall</p>	
 								<form id="contact-us">
 										<textarea value="Message:" onfocus="this.value = '';" name="contact-us-message" onblur="if (this.value == '') {this.value = 'Leave us a message...';}">Leave us a message...</textarea>
 										<input type="text" class="textbox" value="Your@mail.com" name="contact-us-email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Your@mail.com';}">
