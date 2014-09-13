@@ -147,9 +147,9 @@
 	<div id="portfolio" class="portfolio">
 		<div class="container">
 			<div class="head-section text-center">
-				<h3>Checkout my latest work </h3>
+				<h3>Screenshots </h3>
 				   <span1> </span1>
-				  <p>Firewall Protection Example</p>
+				  <p>Here is some backend screens from our MageFirewall 'the' magento security plugin</p>
 			</div>
 		</div>
 		<div id="port" class="portfolio-box">
@@ -206,46 +206,35 @@
 							<div class="team-members">
 								<div class="col-md-4 memo">
 									<div class="team-member text-center">
-										<img src="images/m1.jpg" alt="" />
-										<h3>John smith</h3>
-										<span>creative Director</span>
-										<p>Lorem ipsum dolor sit amet, consecteturporttitora entum  digni ssim donec adipisicing elit.</p>
+										<img src="https://avatars2.githubusercontent.com/u/304180?v=2&s=460" alt="" />
+										<h3>Paim Pozhil</h3>
+										<span>Lead Developer</span>
+										<p>Paimpozhil has worked with many Magento and PHP websites helping them setting up / secure and scale at large.</p>
 										<ul class="t-social unstyled-list list-inline">
-											<li><a class="facebook" href="#"><span> </span></a></li>
-											<li><a class="twitter" href="#"><span> </span></a></li>
-											<li><a class="github" href="#"><span> </span></a></li>
+											<li><a class="facebook" href="http://facebook.com/paimpozhil"><span> </span></a></li>
+											<li><a class="twitter" href="http://twitter.com/paimpozihl"><span> </span></a></li>
+											<li><a class="github" href="http://github.com/paimpozhil"><span> </span></a></li>
 											<div class="clearfix"> </div>
 										</ul>
 									</div>
 								</div>
 								<div class="col-md-4  memo">
 									<div class="team-member text-center">
-										<img src="images/m2.jpg" alt="" />
-										<h3>John smith</h3>
-										<span>creative Director</span>
-										<p>Lorem ipsum dolor sit amet, consecteturporttitora entum  digni ssim donec adipisicing elit.</p>
+										<img src="images/m2.png" alt="" />
+										<h3>Suresh VR</h3>
+										<span>Lead Developer</span>
+										<p>Suresh has tons of Magento  development experience. <br />
+										He strives to do the things Magento way. <br />
+										</p>
 										<ul class="t-social unstyled-list list-inline">
 											<li><a class="facebook" href="#"><span> </span></a></li>
 											<li><a class="twitter" href="#"><span> </span></a></li>
-											<li><a class="github" href="#"><span> </span></a></li>
+											<li><a class="github" href="http://github.com/imvrsuresh"><span> </span></a></li>
 											<div class="clearfix"> </div>
 										</ul>
 									</div>
 								</div>
-								<div class="col-md-4  memo">
-									<div class="team-member text-center">
-										<img src="images/m3.jpg" alt="" />
-										<h3>John smith</h3>
-										<span>creative Director</span>
-										<p>Lorem ipsum dolor sit amet, consecteturporttitora entum  digni ssim donec  adipisicing elit.</p>
-										<ul class="t-social unstyled-list list-inline">
-											<li><a class="facebook" href="#"><span> </span></a></li>
-											<li><a class="twitter" href="#"><span> </span></a></li>
-											<li><a class="github" href="#"><span> </span></a></li>
-											<div class="clearfix"> </div>
-										</ul>
-									</div>
-								</div>
+								
 								<div class="clearfix"> </div>
 							</div>
 							<!----//team-members---->
@@ -258,8 +247,15 @@
 			<div class="head-one text-center">
 				  <h3>Hire Us</h3>
 				   <span> </span>
-				  <p>MageFirewall has many security features including Blocking common web attacks, Blacklisting offenders , File Modification detector , Scan webserver , Scan magento for unpatched security issues , Sanitizing the GET/POST/Cookies/Upload data .
-				  <br /> <br />MageFirewall Uses NinjaFirewall's rules for additional security.
+				  <p>
+				  We offer installation for simple stores for a standard cost of 50$/ magento installation.
+				  We accept Paypal/Credit cards. <br />
+				  
+				  <br />
+				  We also offer Magento Speedups / Upgrade for reasonable cost.<br />
+				  <br />
+				  Please contact us using the form below or at magefirewall [at] gmail dot com .<br />
+	  
 				  </p>
 			 </div>
 		</div>
@@ -294,7 +290,7 @@
 						<div class="footer-icons">
 							<ul class="t-social unstyled-list list-inline">
 											<li><a class="twitter" href="https://twitter.com/MageFirewall"><span> </span></a></li>
-											<li><a class="github" href="#"><span> </span></a></li>
+											<li><a class="github" href="https://github.com/paimpozhil/MageFirewall"><span> </span></a></li>
 											<div class="clearfix"> </div>
 							</ul>
 						</div>
