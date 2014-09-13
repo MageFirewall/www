@@ -98,6 +98,7 @@
 			        <li><a href="#portfolio" class="scroll">Screenshots</a></li>
 			        <li><a href="#blog" class="scroll">Team</a></li>
 			         <li><a href="#hireus" class="scroll">Hire us</a></li>
+			         <li><a href="https://github.com/paimpozhil/MageFirewall/archive/master.zip"> Download </a> </li>
 			        <li><a href="#contact" class="scroll">Contact</a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
@@ -245,7 +246,7 @@
 	<div id="hireus" class="hireus">
 		<div class="container">
 			<div class="head-one text-center">
-				  <h3>Hire Us</h3>
+				  <h3>Hire Us / Support </h3>
 				   <span> </span>
 				  <p>
 				  We offer installation for simple stores for a standard cost of 50$/ magento installation.
