@@ -257,8 +257,8 @@
 										He strives to do the things Magento way. <br />
 										</p>
 										<ul class="t-social unstyled-list list-inline">
-											<li><a class="facebook" href="#"><span> </span></a></li>
-											<li><a class="twitter" href="#"><span> </span></a></li>
+											<li><a class="facebook" href="http://www.facebook.com/imvrsuresh"><span> </span></a></li>
+											<li><a class="twitter" href="http://twitter.com/imvrsuresh"><span> </span></a></li>
 											<li><a class="github" href="http://github.com/imvrsuresh"><span> </span></a></li>
 											<div class="clearfix"> </div>
 										</ul>
@@ -321,7 +321,7 @@
 							<ul class="t-social unstyled-list list-inline">
 											<li><a class="twitter" href="https://twitter.com/MageFirewall"><span> </span></a></li>
 											<li><a class="github" href="https://github.com/paimpozhil/MageFirewall">
-												<img width="45px" src="images/github_icon.png" style="width: 39px;">
+												<img width="45px" src="images/github_icon.png" style="width: 39px;margin-top: -33px;">
 											</a></li>
 											<div class="clearfix"> </div>
 							</ul>
