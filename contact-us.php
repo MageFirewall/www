@@ -1,7 +1,7 @@
 <?php
 
 
-$to = "kumar.devilers@gmail.com";
+$to = "magefirewall@gmail.com";
 $subject = "Feedback";
 $msg = $_GET['contact-us-message'];
 $header = "From:".$_GET['contact-us-email']." \r\n";
