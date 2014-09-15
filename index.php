@@ -67,6 +67,16 @@
 	filterList.init();
 	});	
 </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54805879-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 <body>
 <!----- start-header---->
@@ -293,7 +303,9 @@
 						<div class="footer-icons">
 							<ul class="t-social unstyled-list list-inline">
 											<li><a class="twitter" href="https://twitter.com/MageFirewall"><span> </span></a></li>
-											<li><a class="github" href="https://github.com/paimpozhil/MageFirewall"><span> </span></a></li>
+											<li><a class="github" href="https://github.com/paimpozhil/MageFirewall">
+												<img width="45px" src="images/logomark-orange@2x.png" style="width: 39px;">
+											</a></li>
 											<div class="clearfix"> </div>
 							</ul>
 						</div>
