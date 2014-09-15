@@ -1088,3 +1088,14 @@ i.icon3:hover {
 	font-szie:21px;
 	padding-top:102px;
 }
+
+.featurelist {
+width: 556px;
+text-align: left;
+margin: 0px auto;
+font-size: 25px;
+}
+
+.featurelist li {
+    margin: 10px;
+}

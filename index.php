@@ -130,9 +130,17 @@
        		   <div class="gallery-head text-center">
 				  <h3>Features</h3>
 				   <span> </span>
-				  <p>MageFirewall has many security features including Blocking common web attacks, Blacklisting offenders , File Modification detector , Scan webserver , Scan magento for unpatched security issues , Sanitizing the GET/POST/Cookies/Upload data .
-				  <br /> <br />MageFirewall Uses NinjaFirewall's rules for additional security.
-				  </p>
+				   <h4>
+				   <ul class="featurelist">
+				   <li>Blocking common web attacks
+					<li>Blacklisting offenders</li>
+					<li>File modification detector</li>
+					<li>Scan apache2 webserver</li>
+					<li>Scan Magento for unpatched security issues</li>
+					<li>Sanitizing the GET/POST/Cookies/Upload data</li>
+					<li>MageFirewall Uses NinjaFirewall's rules for additional security</li>
+					</ul>
+					</h4>
 			    </div>
        			<div class="row text-center">
        				<div class="col-md-4 about_grid">
