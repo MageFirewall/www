@@ -1,9 +1,8 @@
+<?php die('cehck'); ?>
 <!DOCTYPE HTML>
 <html>
 <head>
 <title>Magento Firewall</title>
-<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link rel="icon" href="/favicon.ico" type="image/x-icon">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
@@ -173,6 +172,9 @@
 					<li><span class="filter" data-filter="edited_files">Console Mode</span></li>
 					<li><span class="filter" data-filter="logs">Edited Files</span></li>
 					<li><span class="filter" data-filter="console_mode">Logs</span></li>
+					<li><span class="filter" data-filter="scanning">Scan your store</span></li>
+					<li><span class="filter" data-filter="email">Email Modified Files</span></li>
+					<li><span class="filter" data-filter="configuraion">Dashboard Configration</span></li>
 				</ul>
 			</div>
 			<div id="portfoliolist">
@@ -200,7 +202,22 @@
 					<div class="portfolio-wrapper">		
 						<a class="fancybox" rel="some-gallery-name" href="images/screenshot2.png"><img src="images/screenshot2.png" alt="" /></a>
 					</div>
+				</div>	
+				<div class="portfolio scanning" data-cat="card" style="display: inline-block;width:25%; opacity: 1;">
+					<div class="portfolio-wrapper">		
+						<a class="fancybox" rel="some-gallery-name" href="images/screenshot5.png"><img src="images/screenshot5.png" alt="" /></a>
+					</div>
+				</div>	
+				<div class="portfolio email" data-cat="card" style="display: inline-block;width:25%; opacity: 1;">
+					<div class="portfolio-wrapper">		
+						<a class="fancybox" rel="some-gallery-name" href="images/screenshot6.png"><img src="images/screenshot6.png" alt="" /></a>
+					</div>
 				</div>		
+				<div class="portfolio configuration" data-cat="card" style="display: inline-block;width:25%; opacity: 1;">
+					<div class="portfolio-wrapper">		
+						<a class="fancybox" rel="some-gallery-name" href="images/screenshot7.png"><img src="images/screenshot7.png" alt="" /></a>
+					</div>
+				</div>	
 				<div class="clearfix"></div>	
 			</div>
 		</div>
@@ -304,7 +321,7 @@
 							<ul class="t-social unstyled-list list-inline">
 											<li><a class="twitter" href="https://twitter.com/MageFirewall"><span> </span></a></li>
 											<li><a class="github" href="https://github.com/paimpozhil/MageFirewall">
-												<img width="45px" src="images/github_icon.png" style="width: 39px;">
+												<img width="45px" src="images/logomark-orange@2x.png" style="width: 39px;">
 											</a></li>
 											<div class="clearfix"> </div>
 							</ul>
