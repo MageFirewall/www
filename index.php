@@ -174,7 +174,7 @@
 					<li><span class="filter" data-filter="console_mode">Logs</span></li>
 					<li><span class="filter" data-filter="scanning">Scan your store</span></li>
 					<li><span class="filter" data-filter="email">Email Modified Files</span></li>
-					<li><span class="filter" data-filter="configuraion">Dashboard Configration</span></li>
+					<li><span class="filter" data-filter="configuration">Dashboard Configration</span></li>
 				</ul>
 			</div>
 			<div id="portfoliolist">
