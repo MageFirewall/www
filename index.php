@@ -81,6 +81,7 @@
 <div class="header_bg" id="home">
 	<div class="container">
 		<div class="head-para">
+			<div class="topline">Opensource Magento Firewall for securing your e-commerce system.</div>
 			<img src="images/magefirewall.png" class="magelogo">
 			<h1>Mage Firewall</h1>
 		</div>
