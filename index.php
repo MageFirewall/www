@@ -321,7 +321,7 @@
 							<ul class="t-social unstyled-list list-inline">
 											<li><a class="twitter" href="https://twitter.com/MageFirewall"><span> </span></a></li>
 											<li><a class="github" href="https://github.com/paimpozhil/MageFirewall">
-												<img width="45px" src="images/logomark-orange@2x.png" style="width: 39px;">
+												<img width="45px" src="images/github_icon.png" style="width: 39px;">
 											</a></li>
 											<div class="clearfix"> </div>
 							</ul>
