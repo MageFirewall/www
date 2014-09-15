@@ -1,4 +1,3 @@
-<?php die('cehck'); ?>
 <!DOCTYPE HTML>
 <html>
 <head>
