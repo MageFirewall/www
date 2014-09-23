@@ -141,6 +141,7 @@
 					<li>MageFirewall Uses NinjaFirewall's rules for additional security</li>
 					</ul>
 					</h4>
+					<a href="https://github.com/paimpozhil/MageFirewall/archive/master.zip"> <img src="images/download.png" /> </a>
 			    </div>
        			<div class="row text-center">
        				<div class="col-md-4 about_grid">
